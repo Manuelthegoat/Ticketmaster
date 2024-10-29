@@ -9,9 +9,8 @@
 - [React.js](https://reactjs.org/) (Frontend Framework)
 - [MetaMask](https://metamask.io/)
 
-## Requirements For Initial Setup
-- Install [NodeJS](https://nodejs.org/en/). Recommended to use the LTS version.
-- Install [MetaMask](https://metamask.io/) on your browser.
+## Credits
+- Created for BlochainUnn blockathon by Uwadiegwu Emmanuel C, Chiziterem Eze, Uwadiegwu Emmanuel
 
 ## Setting Up
 ### 1. Clone/Download the Repository
@@ -30,5 +29,4 @@ In a separate terminal execute:
 `$ npx hardhat run ./scripts/deploy.js --network localhost`
 
 ### 6. Start frontend
-`$ npm run start`# Ticketmaster
-# Ticketmaster
+`$ npm run start`

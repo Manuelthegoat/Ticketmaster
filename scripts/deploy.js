@@ -20,43 +20,43 @@ async function main() {
   // List 6 events
   const occasions = [
     {
-      name: "UFC Miami",
+      name: "BB Naija",
       cost: tokens(3),
       tickets: 0,
       date: "May 31",
-      time: "6:00PM EST",
-      location: "Miami-Dade Arena - Miami, FL"
+      time: "6:00PM",
+      location: "Ikeja, Nigeria"
     },
     {
-      name: "ETH Tokyo",
+      name: "BUNN Hackathon",
       cost: tokens(1),
       tickets: 125,
-      date: "Jun 2",
-      time: "1:00PM JST",
-      location: "Tokyo, Japan"
+      date: "Nov 2",
+      time: "1:00PM",
+      location: "Nsukka, Nigeria"
     },
     {
-      name: "ETH Privacy Hackathon",
+      name: "Arbitrum Entrance",
       cost: tokens(0.25),
       tickets: 200,
       date: "Jun 9",
-      time: "10:00AM TRT",
-      location: "Turkey, Istanbul"
+      time: "10:00AM",
+      location: "Enugu, Naija"
     },
     {
-      name: "Dallas Mavericks vs. San Antonio Spurs",
-      cost: tokens(5),
-      tickets: 0,
+      name: "Nigeria VS Ghana",
+      cost: tokens(0.01),
+      tickets: 130,
       date: "Jun 11",
-      time: "2:30PM CST",
-      location: "American Airlines Center - Dallas, TX"
+      time: "2:30PM",
+      location: "Kano Stadium"
     },
     {
-      name: "ETH Global Toronto",
+      name: "On The Way to calvary",
       cost: tokens(1.5),
       tickets: 125,
       date: "Jun 23",
-      time: "11:00AM EST",
+      time: "11:00AM",
       location: "Toronto, Canada"
     }
   ]

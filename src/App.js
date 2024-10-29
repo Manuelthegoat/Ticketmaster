@@ -28,10 +28,12 @@ function App() {
     setProvider(provider)
 
     const network = await provider.getNetwork()
-    const tokenMaster = new ethers.Contract(config[network.chainId].TokenMaster.address, TokenMaster, provider)
+    const tokenMaster = new ethers.Contract("0x84eA74d481Ee0A5332c457a4d796187F6Ba67fEB", TokenMaster, provider)
     setTokenMaster(tokenMaster)
+    console.log(network.chainId)
 
     const totalOccasions = await tokenMaster.totalOccasions()
+    console.log({totalOccasions})
     const occasions = []
 
     for (var i = 1; i <= totalOccasions; i++) {
